@@ -1,0 +1,48 @@
+*{ border: solid 1px blue;}
+
+#flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#flex-col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:end;
+    align-items: end ;
+    }
+    
+    body {
+        background-color: #782221;
+        background-image: url('../CSS/Img/github.png'), url('../CSS/Img/linkedin.png'), url('../CSS/Img/Photo.jpg');
+        background-repeat: no-repeat;
+        background-size: 200px, 200px, 200px;
+        background-position: bottom , bottom , top 50% ;
+        }
+
+        h1{
+            color: #dbc2a4;
+            font-family: "Lato";
+            src: url(../CSS/Font/Lato-Regular.ttf);
+        }
+        
+   
+        h2{
+            color: #dbc2a4;
+            font-family: "Lato";
+            src: url(../CSS/Font/Lato-Regular.ttf);
+            }
+
+     
+           
+        div{
+                width: 30%;
+                height: 30%;
+                }
+                
+        section{
+                height: 100%;
+                border: 1px solid black;
+                }        
