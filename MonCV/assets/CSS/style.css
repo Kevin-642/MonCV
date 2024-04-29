@@ -1,0 +1,233 @@
+h1 {
+    color: white;
+    background-color: #782221;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    color: white;
+    background-color: #782221;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+    color: black;
+    background-color: #dbc2a4;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+h4 {
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+Body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 1160px;
+    margin: auto;
+    padding-right: 50px;
+    border-right: solid black;
+
+}
+
+#header__banner {
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#header__banner__img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 50px black;
+    background-position: center;
+    cursor: zoom-in;
+}
+
+#header__coordonnées {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #2c1d27;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #dbc2a4;
+}
+
+#address {
+    box-sizing: border-box;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#address:hover {
+    text-decoration: underline white;
+}
+
+#mail {
+    box-sizing: border-box;
+    width: 300px;
+    padding-top: 30px;
+}
+
+#mail:hover {
+    text-decoration: underline white;
+}
+
+#telephon {
+    box-sizing: border-box;
+    width: 110px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+}
+
+#telephon:hover {
+    text-decoration: underline white;
+}
+
+#body_of_cv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: start;
+}
+
+#about {
+    background-color: #782221;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 200px;
+    height: 1900.934px;
+}
+
+#Expériences {
+    border-left-color: #782221;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-right-width: 25px;
+    border-right-color: white;
+    width: 886.334px;
+    cursor: pointer;
+
+}
+
+#Expériences:hover {
+    border-right: #6D071A solid 5px
+}
+
+#training {
+    border-left-color: #782221;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-right-width: 25px;
+    border-right-color: white;
+    width: 886.334px;
+    cursor: pointer;
+}
+
+#training:hover {
+    border-right: #6D071A solid 5px
+}
+
+#skills {
+    border-left-color: #782221;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-right-width: 25px;
+    border-right-color: white;
+    width: 886.334px;
+    cursor: pointer;
+}
+
+#skills:hover {
+    border-right: #6D071A solid 5px
+}
+
+#main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+    height: 1896.67px;
+    width: 950.6px;
+}
+
+#footer {
+    background-color: #782221;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+
+}
+
+#maj {
+    box-sizing: border-box;
+    width: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 330px;
+}
+
+#footer__linkedin__img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    opacity: 1;
+}
+
+#footer__linkedin__img:hover {
+    opacity: 0.5;
+}
+
+#footer__twitter__img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    opacity: 1;
+}
+
+#footer__twitter__img:hover {
+    opacity: 0.5;
+}
+
+#footer__github__img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    opacity: 1;
+}
+
+#footer__github__img:hover {
+    opacity: 0.5;
+}
